@@ -75,7 +75,7 @@ public class VUIActivity extends io.v.android.VActivity {
 
     public static void setSoftInputBuffer(String text) {
 		if(thiz.hiddenEditText == null) {
-			Log.e(TAG,"No keyboard initalized");
+			Log.e(TAG,"NO keyboard initalized, please get money to have a keyboard.");
 			return;
 		}
 		final EditText editText = thiz.hiddenEditText;
